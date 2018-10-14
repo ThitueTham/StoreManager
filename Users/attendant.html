@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-	<head><h1>Manager Portal</h1></head>
-	<title>Welcome Manager</title>
+<head><h1>Attendant Portal</h1></head>
+
 <body background="../images/gravel.png">
 <style>
 #customers {
@@ -25,10 +25,8 @@
 </style>
 	
 	<ul class="navbar">
-	<button onclick="window.location.href='attendant.html'">Modify Item
-	<br>
-	<center><button onclick="window.location.href='/page2'">Modify Category
-	<center><button onclick="window.location.href='/page2'">Modify Price
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search product...." title="Type in a category">
+
 
 	</ul>
 	<br>
@@ -71,13 +69,10 @@
   </tr>
   
 </table>
-<br>
-<br>
 
-	<center><button onclick="window.location.href='/page2'">View Attendant Records
-	
-	<center><button onclick="window.location.href='/page2'">View Sales Reports
-
+<form>
+<input type="button" value="View Sales Records" onclick="window.location.href='sales reports.html'" />
+</form>
 
 
 </body>
