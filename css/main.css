@@ -1,0 +1,27 @@
+.body-index{
+	background-image:url(../images/bg2.jpg);
+	background-size: cover;
+}
+.body-manager{
+	background-image:url(../images/gravel.png);
+	background-size: cover;
+}
+
+#customers {
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 3px solid #dddd;
+    padding: 5px;
+	text-align: center;
+
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #af4c91;
+    color: white;
+}
